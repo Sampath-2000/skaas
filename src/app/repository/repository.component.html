@@ -1,0 +1,22 @@
+
+
+<div class="card-box" [ngStyle]="users.fork==true?{'background-color':'yellow'} : {'background-color': 'white'}">
+   
+    <div class="contents" >
+ <ul>
+     <li> <h1>Watchers Count:{{users.watchers_count}}</h1></li> 
+  <li>  <h1>Language:{{users.language}}</h1></li>
+  <li><h1>Name:{{users.name}}</h1></li>
+   <li> <h1>Size:{{users.size}}</h1></li>
+   <li> <h1>Star:{{users.stargazers_count}}</h1></li>
+   <li> <h1>Fork:{{users.fork}}</h1></li>
+  <a (click)="goToLink(users.html_url)"> <u><li><h1 style="cursor: pointer;">Repository Url:{{users.html_url}}</h1></li></u></a>
+   <li> <h1>Description:{{users.description|slice:-90}}</h1></li>
+</ul> 
+ </div>
+</div>
+
+
+
+
+

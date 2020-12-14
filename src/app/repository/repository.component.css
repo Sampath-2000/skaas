@@ -1,0 +1,16 @@
+.card-box{
+    width: 395px;
+    background: rgb(255, 255, 255);
+    height: 251px;
+    border-radius: 48px;
+    display: inline-flex;
+    margin: 17px 28px 21px 41px;
+}
+
+
+    
+
+h1{
+    font-size: 11px;
+   font-family: Verdana;
+}

@@ -1,0 +1,14 @@
+<html lang="en">
+<body>
+  
+     <div class="bg"> <h1>ENTER USERNAME TO LIST OUT</h1>
+  
+    <div class="outline">
+        <input type="text" placeholder="ENTER SOME TEXT HERE" name="textField" class="txtbox" [(ngModel)]="userName" >
+         <button type="submit"  [disabled]="userName === ''" (click)="getRepositories(userName)" disabled >SUBMIT</button>
+    </div>  
+    <span *ngFor="let users of users">
+    <app-repository [users]="users"></app-repository> </span></div>
+</body>
+</html>
+

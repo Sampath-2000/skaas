@@ -1,0 +1,58 @@
+*{
+    
+    font-weight: bold;
+   margin: unset;
+}
+
+.bg{ 
+    background: linear-gradient(to right, #fc00ff, #00dbde); 
+  text-align: center;
+  height: 300vh;
+  
+}
+
+.outline{
+    background: linear-gradient(to right, #fc00ff, #00dbde); 
+    width: 501px;
+    height: 285px;
+    border-radius: 20px;
+    margin:21px 689px;
+    border: 2px solid white;
+}
+h1{
+    color: white;
+   
+    
+}
+.txtbox{
+    width: 305px;
+    margin: 65px;
+    height: 50px;
+    font-family: Verdana;
+
+}
+.txtbox::placeholder{
+    color: rgba(110, 110, 110, 0.349);
+    text-align: center;
+
+}
+button{
+    background: tomato;
+    border: 0px;
+    border-radius: 12px;
+    color: white;
+    width: 110px;
+    font-size: 21px;
+    height: 39px;
+    overflow: hidden;
+    white-space:nowrap;
+    cursor: pointer;
+}
+button:disabled{
+    background-color: tomato;
+    cursor: not-allowed;
+    
+}
+button:hover{
+    background:rgb(228, 53, 22);
+}

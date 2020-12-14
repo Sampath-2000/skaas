@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "skaas"
+  "defaultProject": "skaas",
+  "cli": {
+    "analytics": "03275fb6-4ff0-4cde-8d61-c3aa71e707fe"
+  }
 }
